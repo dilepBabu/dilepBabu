@@ -13,5 +13,6 @@
   <img src="https://komarev.com/ghpvc/?username=dilepbabu" alt="Profile Views" />
 </p>
 
-| ![DilepBabu's GitHub Stats](https://github-readme-stats.vercel.app/api?username=dilepbabu&theme=white&show_icons=true) | ![Dilepbabu's Streak](https://github-readme-streak-stats.herokuapp.com/?user=dilepbabu&background=ffffff&hide_border=true) |
+![DilepBabu's GitHub Stats](https://github-readme-stats.vercel.app/api?username=dilepbabu&theme=github_dark&cache_seconds=86400)| ![Dilepbabu's Streak](https://github-readme-streak-stats.herokuapp.com/?user=dilepbabu&background=ffffff&hide_border=true) |
 |---------------------------------|---------------------------------|
+
