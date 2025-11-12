@@ -2,11 +2,14 @@
 <h3 align="center">B.Tech (Information Technology)</h3>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/dilep-babu-r-99a463283/">
-    <img src="https://img.shields.io/badge/dilepbabu-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin" />
+ <a href="https://www.linkedin.com/in/dilep-babu-r-99a463283/">
+    <img src="https://img.shields.io/badge/dilepbabu-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-   <a href="https://leetcode.com/u/Dilep_Babu/">
+  <a href="https://leetcode.com/u/Dilep_Babu/">
     <img src="https://img.shields.io/badge/LeetCode-Dilep_Babu-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" />
+  </a>
+  <a href="https://drive.google.com/file/d/1LkWU_K7KqtWUzlEMvDHi6zrKtakjcgZx/view?usp=drive_link">
+    <img src="https://img.shields.io/badge/Resume-View-blue?style=for-the-badge&logo=GoogleDrive&logoColor=white" alt="Resume" />
   </a>
 </p>
 
@@ -18,5 +21,6 @@
 
 ![DilepBabu's GitHub Stats](https://github-readme-stats.vercel.app/api?username=dilepbabu&theme=github_dark&cache_seconds=86400)| ![Dilepbabu's Streak](https://github-readme-streak-stats.herokuapp.com/?user=dilepbabu&background=ffffff&hide_border=true) |
 |---------------------------------|---------------------------------|
+
 
 
