@@ -2,7 +2,7 @@
 <h3 align="center">B.Tech (Information Technology)</h3>
 
 <p align="center">
- <a href="https://www.linkedin.com/in/dilep-babu-r-99a463283/">
+  <a href="https://www.linkedin.com/in/dilep-babu-r-99a463283/">
     <img src="https://img.shields.io/badge/dilepbabu-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://leetcode.com/u/Dilep_Babu/">
@@ -19,15 +19,13 @@
   <img src="https://komarev.com/ghpvc/?username=dilepbabu" alt="Profile Views" />
 </p>
 
-<p align="center">
-  <!-- GitHub Stats -->
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=dilepbabu&show_icons=true&theme=github_dark&hide_border=false&count_private=true" />
-  
-  <!-- Streak Stats -->
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=dilepbabu&theme=dark&hide_border=false&count_private=true&cache_seconds=3600" />
-</p>
-
-
-
-
-
+<table>
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=dilepbabu&theme=github_dark&cache_seconds=86400" alt="DilepBabu's GitHub Stats" />
+    </td>
+    <td>
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=dilepbabu&background=ffffff&hide_border=true" alt="Dilepbabu's Streak" />
+    </td>
+  </tr>
+</table>
