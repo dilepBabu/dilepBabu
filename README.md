@@ -8,7 +8,7 @@
   <a href="https://leetcode.com/u/Dilep_Babu/">
     <img src="https://img.shields.io/badge/LeetCode-Dilep_Babu-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" />
   </a>
-  <a href="https://drive.google.com/file/d/1v8EDrDULDcWLJTTqQqEoBkFBvrIWGr6o/view?usp=drivesdk">
+  <a https://drive.google.com/file/d/1Aw6lCGpxdbdqakM7v9xISPU3vkdsBR5u/view?usp=drivesdk">
     <img src="https://img.shields.io/badge/Resume-View-blue?style=for-the-badge&logo=GoogleDrive&logoColor=white" alt="Resume" />
   </a>
 </p>
