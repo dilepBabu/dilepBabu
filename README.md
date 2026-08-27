@@ -1,31 +1,87 @@
-<h1 align="center">Hi, I'm Dilep Babu</h1>
-<h3 align="center">B.Tech (Information Technology)</h3>
+<div align="center">
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/dilep-babu-r-99a463283/">
-    <img src="https://img.shields.io/badge/dilepbabu-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://leetcode.com/u/Dilep_Babu/">
-    <img src="https://img.shields.io/badge/LeetCode-Dilep_Babu-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" />
-  </a>
-  <a href="https://drive.google.com/file/d/1Aw6lCGpxdbdqakM7v9xISPU3vkdsBR5u/view?usp=drivesdk">
-    <img src="https://img.shields.io/badge/Resume-View-blue?style=for-the-badge&logo=GoogleDrive&logoColor=white" alt="Resume" />
-  </a>
-</p>
+<img src="./assets/futuristic-header.svg" width="100%" alt="Dilep Babu futuristic developer header"/>
 
-## GitHub Stats 📊
+<br/>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=dilepbabu" alt="Profile Views" />
-</p>
+<a href="https://www.linkedin.com/in/dilep-babu-r-99a463283/">
+  <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+&nbsp;
+<a href="https://leetcode.com/u/Dilep_Babu/">
+  <img src="https://img.shields.io/badge/LEETCODE-F89F1B?style=for-the-badge&logo=leetcode&logoColor=white"/>
+</a>
+&nbsp;
+<a href="https://drive.google.com/file/d/1Aw6lCGpxdbdqakM7v9xISPU3vkdsBR5u/view?usp=drivesdk">
+  <img src="https://img.shields.io/badge/RESUME-111827?style=for-the-badge&logo=googledrive&logoColor=white"/>
+</a>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=dilepbabu&style=for-the-badge&color=0ea5e9&label=PROFILE+SIGNALS"/>
+
+</div>
+
+---
+
+<div align="center">
+
+# `DILEP BABU`
+
+### B.Tech · Information Technology
+
+`FULL-STACK DEVELOPMENT` · `BACKEND SYSTEMS` · `REST APIs` · `PROBLEM SOLVING`
+
+<br/>
+
+> **Building systems that look clean, scale intelligently, and solve real problems.**
+
+</div>
+
+---
+
+## ◢ SYSTEM PROFILE
 
 <table>
-  <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=dilepbabu&theme=github_dark&cache_seconds=86400" alt="DilepBabu's GitHub Stats" />
-    </td>
-    <td>
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=dilepbabu&background=ffffff&hide_border=true" alt="Dilepbabu's Streak" />
-    </td>
-  </tr>
-</table>
+<tr>
+<td width="58%" valign="top">
+
+### `01 // ABOUT`
+
+I'm **Dilep Babu**, a B.Tech Information Technology developer interested in building practical software systems and modern digital experiences.
+
+My current public work includes backend-oriented application development with:
+
+- **Java**
+- **Spring Boot**
+- **REST APIs**
+- **JWT Authentication**
+- **MySQL**
+
+I enjoy turning ideas into structured, usable products while continuously improving my problem-solving and development skills.
+
+</td>
+
+<td width="42%" valign="top">
+
+### `02 // CURRENT STACK`
+
+```text
+LANGUAGES
+Java
+JavaScript
+HTML
+CSS
+
+BACKEND
+Spring Boot
+REST API
+JWT
+
+DATABASE
+MySQL
+
+TOOLS
+Git
+GitHub
+VS Code
