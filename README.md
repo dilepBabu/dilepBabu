@@ -6,23 +6,25 @@
 
 <p>
   <a href="https://github.com/dilepBabu">
-    <img src="https://img.shields.io/badge/GitHub-dilepBabu-181717?style=for-the-badge&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/GitHub-dilepBabu-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   <a href="https://www.linkedin.com/in/dilep-babu-r-99a463283/">
-    <img src="https://img.shields.io/badge/LinkedIn-Dilep%20Babu-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-Dilep%20Babu-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://leetcode.com/u/Dilep_Babu/">
-    <img src="https://img.shields.io/badge/LeetCode-Dilep_Babu-F89F1B?style=for-the-badge&logo=leetcode&logoColor=white" />
+    <img src="https://img.shields.io/badge/LeetCode-Dilep_Babu-F89F1B?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" />
   </a>
   <a href="https://drive.google.com/file/d/1Aw6lCGpxdbdqakM7v9xISPU3vkdsBR5u/view?usp=drivesdk">
-    <img src="https://img.shields.io/badge/Resume-View-4285F4?style=for-the-badge&logo=google-drive&logoColor=white" />
+    <img src="https://img.shields.io/badge/Resume-View-4285F4?style=for-the-badge&logo=google-drive&logoColor=white" alt="Resume" />
   </a>
 </p>
 
-<img
-  src="https://komarev.com/ghpvc/?username=dilepBabu&label=PROFILE%20VIEWS&color=0e75b6&style=flat-square"
-  alt="Profile Views"
-/>
+<p>
+  <img
+    src="https://komarev.com/ghpvc/?username=dilepBabu&label=PROFILE%20VIEWS&color=0e75b6&style=flat-square"
+    alt="Profile Views"
+  />
+</p>
 
 </div>
 
@@ -43,27 +45,36 @@ and improving my development skills through real-world projects.
 <table align="center">
 <tr>
 
-<td align="center">
+<td align="center" width="33%">
 
-### Languages
+### 💻 Languages
 
-`Java` `Python` `JavaScript` `SQL`
-
-</td>
-
-<td align="center">
-
-### Web
-
-`HTML` `CSS` `React` `Tailwind CSS`
+`Java`  
+`Python`  
+`JavaScript`  
+`SQL`
 
 </td>
 
-<td align="center">
+<td align="center" width="33%">
 
-### Backend
+### 🌐 Web
 
-`Spring Boot` `Node.js` `Express` `Django`
+`HTML`  
+`CSS`  
+`React`  
+`Tailwind CSS`
+
+</td>
+
+<td align="center" width="33%">
+
+### ⚙️ Backend
+
+`Spring Boot`  
+`Node.js`  
+`Express`  
+`Django`
 
 </td>
 
@@ -73,25 +84,32 @@ and improving my development skills through real-world projects.
 
 <td align="center">
 
-### Data
+### ☁️ Data
 
-`PySpark` `Databricks` `Delta Lake`
-
-</td>
-
-<td align="center">
-
-### Database
-
-`MySQL` `MongoDB` `SQLite`
+`PySpark`  
+`Databricks`  
+`Delta Lake`
 
 </td>
 
 <td align="center">
 
-### Tools
+### 🗄️ Database
 
-`Git` `GitHub` `Power BI` `VS Code`
+`MySQL`  
+`MongoDB`  
+`SQLite`
+
+</td>
+
+<td align="center">
+
+### 🛠️ Tools
+
+`Git`  
+`GitHub`  
+`Power BI`  
+`VS Code`
 
 </td>
 
@@ -111,6 +129,18 @@ interactive UI, smooth scrolling and modern frontend experiences.
 
 `React` `React Router` `Tailwind CSS` `Framer Motion` `Vite`
 
+<p>
+  <a href="https://github.com/dilepBabu/CloudMatrix">
+    <img src="https://img.shields.io/github/stars/dilepBabu/CloudMatrix?style=for-the-badge&logo=github" alt="CloudMatrix Stars" />
+  </a>
+  <a href="https://github.com/dilepBabu/CloudMatrix">
+    <img src="https://img.shields.io/github/forks/dilepBabu/CloudMatrix?style=for-the-badge&logo=github" alt="CloudMatrix Forks" />
+  </a>
+  <a href="https://github.com/dilepBabu/CloudMatrix">
+    <img src="https://img.shields.io/github/last-commit/dilepBabu/CloudMatrix?style=for-the-badge&logo=github" alt="CloudMatrix Last Commit" />
+  </a>
+</p>
+
 🔗 **Repository:**  
 https://github.com/dilepBabu/CloudMatrix
 
@@ -124,6 +154,15 @@ and data processing workflows.
 **Tech Stack**
 
 `Azure` `Databricks` `PySpark` `Delta Lake` `SQL`
+
+<p>
+  <a href="https://github.com/dilepBabu/NovaCart_AzureDataBricks_Project">
+    <img src="https://img.shields.io/github/stars/dilepBabu/NovaCart_AzureDataBricks_Project?style=for-the-badge&logo=github" alt="NovaCart Stars" />
+  </a>
+  <a href="https://github.com/dilepBabu/NovaCart_AzureDataBricks_Project">
+    <img src="https://img.shields.io/github/last-commit/dilepBabu/NovaCart_AzureDataBricks_Project?style=for-the-badge&logo=github" alt="NovaCart Last Commit" />
+  </a>
+</p>
 
 🔗 **Repository:**  
 https://github.com/dilepBabu/NovaCart_AzureDataBricks_Project
@@ -139,6 +178,15 @@ real-time waste tracking.
 
 `Python` `Django` `MySQL` `JavaScript` `IoT`
 
+<p>
+  <a href="https://github.com/dilepBabu/IoT-Smart-Waste-Disposal-System">
+    <img src="https://img.shields.io/github/stars/dilepBabu/IoT-Smart-Waste-Disposal-System?style=for-the-badge&logo=github" alt="IoT Project Stars" />
+  </a>
+  <a href="https://github.com/dilepBabu/IoT-Smart-Waste-Disposal-System">
+    <img src="https://img.shields.io/github/last-commit/dilepBabu/IoT-Smart-Waste-Disposal-System?style=for-the-badge&logo=github" alt="IoT Project Last Commit" />
+  </a>
+</p>
+
 🔗 **Repository:**  
 https://github.com/dilepBabu/IoT-Smart-Waste-Disposal-System
 
@@ -152,6 +200,15 @@ REST APIs.
 **Tech Stack**
 
 `Java` `Spring Boot` `MySQL` `JWT` `JPA/Hibernate`
+
+<p>
+  <a href="https://github.com/dilepBabu/Employee-Management-System">
+    <img src="https://img.shields.io/github/stars/dilepBabu/Employee-Management-System?style=for-the-badge&logo=github" alt="Employee Management Stars" />
+  </a>
+  <a href="https://github.com/dilepBabu/Employee-Management-System">
+    <img src="https://img.shields.io/github/last-commit/dilepBabu/Employee-Management-System?style=for-the-badge&logo=github" alt="Employee Management Last Commit" />
+  </a>
+</p>
 
 🔗 **Repository:**  
 https://github.com/dilepBabu/Employee-Management-System
@@ -167,50 +224,134 @@ stages with authentication and role-based access control.
 
 `Java` `Spring Boot` `MySQL` `JWT` `JPA/Hibernate`
 
+<p>
+  <a href="https://github.com/dilepBabu/Job_Application_Tracker">
+    <img src="https://img.shields.io/github/stars/dilepBabu/Job_Application_Tracker?style=for-the-badge&logo=github" alt="Job Tracker Stars" />
+  </a>
+  <a href="https://img.shields.io/github/commit-activity/y/dilepBabu/Job_Application_Tracker">
+    <img src="https://img.shields.io/github/commit-activity/y/dilepBabu/Job_Application_Tracker?style=for-the-badge&logo=github" alt="Job Tracker Commit Activity" />
+  </a>
+  <a href="https://github.com/dilepBabu/Job_Application_Tracker">
+    <img src="https://img.shields.io/github/last-commit/dilepBabu/Job_Application_Tracker?style=for-the-badge&logo=github" alt="Job Tracker Last Commit" />
+  </a>
+</p>
+
 🔗 **Repository:**  
 https://github.com/dilepBabu/Job_Application_Tracker
 
 ---
 
-# 📊 GitHub Analytics
+# 📊 GitHub Activity
 
 <div align="center">
 
-<img
-  src="https://github-readme-stats.vercel.app/api?username=dilepBabu&show_icons=true&hide_border=true&include_all_commits=true&count_private=false"
-  width="48%"
-  alt="Dilep Babu GitHub Stats"
-/>
+### 📈 Live Repository Activity
 
-<img
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=dilepBabu&layout=compact&hide_border=true&langs_count=8"
-  width="48%"
-  alt="Dilep Babu Top Languages"
-/>
+<table>
+<tr>
+<td align="center">
 
-</div>
+<a href="https://github.com/dilepBabu/CloudMatrix">
+<img src="https://img.shields.io/github/commit-activity/y/dilepBabu/CloudMatrix?style=for-the-badge&logo=github" alt="CloudMatrix Commit Activity" />
+</a>
 
-<br>
+<br />
 
-<div align="center">
+<sub>CloudMatrix</sub>
 
-<img
-  src="https://github-readme-streak-stats.herokuapp.com/?user=dilepBabu&hide_border=true"
-  width="70%"
-  alt="Dilep Babu GitHub Streak"
-/>
+</td>
 
-</div>
+<td align="center">
 
-<br>
+<a href="https://github.com/dilepBabu/NovaCart_AzureDataBricks_Project">
+<img src="https://img.shields.io/github/commit-activity/y/dilepBabu/NovaCart_AzureDataBricks_Project?style=for-the-badge&logo=github" alt="NovaCart Commit Activity" />
+</a>
 
-<div align="center">
+<br />
 
-<img
-  src="https://github-readme-activity-graph.vercel.app/graph?username=dilepBabu&hide_border=true"
-  width="100%"
-  alt="Dilep Babu GitHub Activity Graph"
-/>
+<sub>NovaCart</sub>
+
+</td>
+
+<td align="center">
+
+<a href="https://github.com/dilepBabu/IoT-Smart-Waste-Disposal-System">
+<img src="https://img.shields.io/github/commit-activity/y/dilepBabu/IoT-Smart-Waste-Disposal-System?style=for-the-badge&logo=github" alt="IoT Commit Activity" />
+</a>
+
+<br />
+
+<sub>IoT Smart Waste</sub>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center">
+
+<a href="https://github.com/dilepBabu/Employee-Management-System">
+<img src="https://img.shields.io/github/commit-activity/y/dilepBabu/Employee-Management-System?style=for-the-badge&logo=github" alt="Employee Management Commit Activity" />
+</a>
+
+<br />
+
+<sub>Employee Management</sub>
+
+</td>
+
+<td align="center">
+
+<a href="https://github.com/dilepBabu/Job_Application_Tracker">
+<img src="https://img.shields.io/github/commit-activity/y/dilepBabu/Job_Application_Tracker?style=for-the-badge&logo=github" alt="Job Tracker Commit Activity" />
+</a>
+
+<br />
+
+<sub>Job Application Tracker</sub>
+
+</td>
+
+<td align="center">
+
+<a href="https://github.com/dilepBabu">
+<img src="https://img.shields.io/github/followers/dilepBabu?style=for-the-badge&logo=github&label=FOLLOWERS" alt="GitHub Followers" />
+</a>
+
+<br />
+
+<sub>GitHub Profile</sub>
+
+</td>
+
+</tr>
+</table>
+
+<br />
+
+### 🟢 Current GitHub Work
+
+<a href="https://github.com/dilepBabu">
+  <img
+    src="https://img.shields.io/badge/VIEW%20MY%20GITHUB%20ACTIVITY-181717?style=for-the-badge&logo=github&logoColor=white"
+    alt="View GitHub Activity"
+  />
+</a>
+
+<a href="https://github.com/dilepBabu?tab=overview">
+  <img
+    src="https://img.shields.io/badge/CONTRIBUTIONS-0E75B6?style=for-the-badge&logo=github&logoColor=white"
+    alt="GitHub Contributions"
+  />
+</a>
+
+<a href="https://github.com/dilepBabu?tab=repositories">
+  <img
+    src="https://img.shields.io/badge/ALL%20REPOSITORIES-6A5ACD?style=for-the-badge&logo=github&logoColor=white"
+    alt="All Repositories"
+  />
+</a>
 
 </div>
 
