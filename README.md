@@ -133,11 +133,8 @@ interactive UI, smooth scrolling and modern frontend experiences.
   <a href="https://github.com/dilepBabu/CloudMatrix">
     <img src="https://img.shields.io/github/stars/dilepBabu/CloudMatrix?style=for-the-badge&logo=github" alt="CloudMatrix Stars" />
   </a>
-  <a href="https://github.com/dilepBabu/CloudMatrix">
-    <img src="https://img.shields.io/github/forks/dilepBabu/CloudMatrix?style=for-the-badge&logo=github" alt="CloudMatrix Forks" />
-  </a>
-  <a href="https://github.com/dilepBabu/CloudMatrix">
-    <img src="https://img.shields.io/github/last-commit/dilepBabu/CloudMatrix?style=for-the-badge&logo=github" alt="CloudMatrix Last Commit" />
+  <a href="https://github.com/dilepBabu/CloudMatrix/commits">
+    <img src="https://img.shields.io/github/commit-activity/y/dilepBabu/CloudMatrix?style=for-the-badge&logo=github" alt="CloudMatrix Commit Activity" />
   </a>
 </p>
 
@@ -159,8 +156,8 @@ and data processing workflows.
   <a href="https://github.com/dilepBabu/NovaCart_AzureDataBricks_Project">
     <img src="https://img.shields.io/github/stars/dilepBabu/NovaCart_AzureDataBricks_Project?style=for-the-badge&logo=github" alt="NovaCart Stars" />
   </a>
-  <a href="https://github.com/dilepBabu/NovaCart_AzureDataBricks_Project">
-    <img src="https://img.shields.io/github/last-commit/dilepBabu/NovaCart_AzureDataBricks_Project?style=for-the-badge&logo=github" alt="NovaCart Last Commit" />
+  <a href="https://github.com/dilepBabu/NovaCart_AzureDataBricks_Project/commits">
+    <img src="https://img.shields.io/github/commit-activity/y/dilepBabu/NovaCart_AzureDataBricks_Project?style=for-the-badge&logo=github" alt="NovaCart Commit Activity" />
   </a>
 </p>
 
@@ -182,8 +179,8 @@ real-time waste tracking.
   <a href="https://github.com/dilepBabu/IoT-Smart-Waste-Disposal-System">
     <img src="https://img.shields.io/github/stars/dilepBabu/IoT-Smart-Waste-Disposal-System?style=for-the-badge&logo=github" alt="IoT Project Stars" />
   </a>
-  <a href="https://github.com/dilepBabu/IoT-Smart-Waste-Disposal-System">
-    <img src="https://img.shields.io/github/last-commit/dilepBabu/IoT-Smart-Waste-Disposal-System?style=for-the-badge&logo=github" alt="IoT Project Last Commit" />
+  <a href="https://github.com/dilepBabu/IoT-Smart-Waste-Disposal-System/commits">
+    <img src="https://img.shields.io/github/commit-activity/y/dilepBabu/IoT-Smart-Waste-Disposal-System?style=for-the-badge&logo=github" alt="IoT Commit Activity" />
   </a>
 </p>
 
@@ -205,8 +202,8 @@ REST APIs.
   <a href="https://github.com/dilepBabu/Employee-Management-System">
     <img src="https://img.shields.io/github/stars/dilepBabu/Employee-Management-System?style=for-the-badge&logo=github" alt="Employee Management Stars" />
   </a>
-  <a href="https://github.com/dilepBabu/Employee-Management-System">
-    <img src="https://img.shields.io/github/last-commit/dilepBabu/Employee-Management-System?style=for-the-badge&logo=github" alt="Employee Management Last Commit" />
+  <a href="https://github.com/dilepBabu/Employee-Management-System/commits">
+    <img src="https://img.shields.io/github/commit-activity/y/dilepBabu/Employee-Management-System?style=for-the-badge&logo=github" alt="Employee Management Commit Activity" />
   </a>
 </p>
 
@@ -228,11 +225,8 @@ stages with authentication and role-based access control.
   <a href="https://github.com/dilepBabu/Job_Application_Tracker">
     <img src="https://img.shields.io/github/stars/dilepBabu/Job_Application_Tracker?style=for-the-badge&logo=github" alt="Job Tracker Stars" />
   </a>
-  <a href="https://img.shields.io/github/commit-activity/y/dilepBabu/Job_Application_Tracker">
+  <a href="https://github.com/dilepBabu/Job_Application_Tracker/commits">
     <img src="https://img.shields.io/github/commit-activity/y/dilepBabu/Job_Application_Tracker?style=for-the-badge&logo=github" alt="Job Tracker Commit Activity" />
-  </a>
-  <a href="https://github.com/dilepBabu/Job_Application_Tracker">
-    <img src="https://img.shields.io/github/last-commit/dilepBabu/Job_Application_Tracker?style=for-the-badge&logo=github" alt="Job Tracker Last Commit" />
   </a>
 </p>
 
@@ -245,115 +239,30 @@ https://github.com/dilepBabu/Job_Application_Tracker
 
 <div align="center">
 
-### 📈 Live Repository Activity
+### 🟢 My GitHub Activity
 
-<table>
-<tr>
-<td align="center">
-
-<a href="https://github.com/dilepBabu/CloudMatrix">
-<img src="https://img.shields.io/github/commit-activity/y/dilepBabu/CloudMatrix?style=for-the-badge&logo=github" alt="CloudMatrix Commit Activity" />
-</a>
-
-<br />
-
-<sub>CloudMatrix</sub>
-
-</td>
-
-<td align="center">
-
-<a href="https://github.com/dilepBabu/NovaCart_AzureDataBricks_Project">
-<img src="https://img.shields.io/github/commit-activity/y/dilepBabu/NovaCart_AzureDataBricks_Project?style=for-the-badge&logo=github" alt="NovaCart Commit Activity" />
-</a>
-
-<br />
-
-<sub>NovaCart</sub>
-
-</td>
-
-<td align="center">
-
-<a href="https://github.com/dilepBabu/IoT-Smart-Waste-Disposal-System">
-<img src="https://img.shields.io/github/commit-activity/y/dilepBabu/IoT-Smart-Waste-Disposal-System?style=for-the-badge&logo=github" alt="IoT Commit Activity" />
-</a>
-
-<br />
-
-<sub>IoT Smart Waste</sub>
-
-</td>
-
-</tr>
-
-<tr>
-
-<td align="center">
-
-<a href="https://github.com/dilepBabu/Employee-Management-System">
-<img src="https://img.shields.io/github/commit-activity/y/dilepBabu/Employee-Management-System?style=for-the-badge&logo=github" alt="Employee Management Commit Activity" />
-</a>
-
-<br />
-
-<sub>Employee Management</sub>
-
-</td>
-
-<td align="center">
-
-<a href="https://github.com/dilepBabu/Job_Application_Tracker">
-<img src="https://img.shields.io/github/commit-activity/y/dilepBabu/Job_Application_Tracker?style=for-the-badge&logo=github" alt="Job Tracker Commit Activity" />
-</a>
-
-<br />
-
-<sub>Job Application Tracker</sub>
-
-</td>
-
-<td align="center">
-
-<a href="https://github.com/dilepBabu">
-<img src="https://img.shields.io/github/followers/dilepBabu?style=for-the-badge&logo=github&label=FOLLOWERS" alt="GitHub Followers" />
-</a>
-
-<br />
-
-<sub>GitHub Profile</sub>
-
-</td>
-
-</tr>
-</table>
-
-<br />
-
-### 🟢 Current GitHub Work
-
-<a href="https://github.com/dilepBabu">
-  <img
-    src="https://img.shields.io/badge/VIEW%20MY%20GITHUB%20ACTIVITY-181717?style=for-the-badge&logo=github&logoColor=white"
-    alt="View GitHub Activity"
-  />
-</a>
-
-<a href="https://github.com/dilepBabu?tab=overview">
-  <img
-    src="https://img.shields.io/badge/CONTRIBUTIONS-0E75B6?style=for-the-badge&logo=github&logoColor=white"
-    alt="GitHub Contributions"
-  />
-</a>
-
-<a href="https://github.com/dilepBabu?tab=repositories">
-  <img
-    src="https://img.shields.io/badge/ALL%20REPOSITORIES-6A5ACD?style=for-the-badge&logo=github&logoColor=white"
-    alt="All Repositories"
-  />
-</a>
+<p>
+  <a href="https://github.com/dilepBabu">
+    <img src="https://img.shields.io/badge/GitHub%20Profile-View%20Activity-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile Activity" />
+  </a>
+  <a href="https://github.com/dilepBabu?tab=overview">
+    <img src="https://img.shields.io/badge/Contribution%20Graph-View-0E75B6?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Contribution Graph" />
+  </a>
+</p>
 
 </div>
+
+### 📌 Recent Repository Activity
+
+| Repository | Commits | Issues | Pull Requests |
+|------------|---------|--------|---------------|
+| [CloudMatrix](https://github.com/dilepBabu/CloudMatrix) | [View Commits](https://github.com/dilepBabu/CloudMatrix/commits) | [Issues](https://github.com/dilepBabu/CloudMatrix/issues) | [Pull Requests](https://github.com/dilepBabu/CloudMatrix/pulls) |
+| [NovaCart Azure DataBricks Project](https://github.com/dilepBabu/NovaCart_AzureDataBricks_Project) | [View Commits](https://github.com/dilepBabu/NovaCart_AzureDataBricks_Project/commits) | [Issues](https://github.com/dilepBabu/NovaCart_AzureDataBricks_Project/issues) | [Pull Requests](https://github.com/dilepBabu/NovaCart_AzureDataBricks_Project/pulls) |
+| [IoT Smart Waste Disposal System](https://github.com/dilepBabu/IoT-Smart-Waste-Disposal-System) | [View Commits](https://github.com/dilepBabu/IoT-Smart-Waste-Disposal-System/commits) | [Issues](https://github.com/dilepBabu/IoT-Smart-Waste-Disposal-System/issues) | [Pull Requests](https://github.com/dilepBabu/IoT-Smart-Waste-Disposal-System/pulls) |
+| [Employee Management System](https://github.com/dilepBabu/Employee-Management-System) | [View Commits](https://github.com/dilepBabu/Employee-Management-System/commits) | [Issues](https://github.com/dilepBabu/Employee-Management-System/issues) | [Pull Requests](https://github.com/dilepBabu/Employee-Management-System/pulls) |
+| [Job Application Tracker](https://github.com/dilepBabu/Job_Application_Tracker) | [View Commits](https://github.com/dilepBabu/Job_Application_Tracker/commits) | [Issues](https://github.com/dilepBabu/Job_Application_Tracker/issues) | [Pull Requests](https://github.com/dilepBabu/Job_Application_Tracker/pulls) |
+
+> GitHub's own profile page contains the contribution graph and contribution activity timeline. This README links directly to that native GitHub activity instead of using an external graph service.
 
 ---
 
