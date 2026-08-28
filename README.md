@@ -19,7 +19,10 @@
   </a>
 </p>
 
-<img src="https://komarev.com/ghpvc/?username=dilepBabu&label=PROFILE%20VIEWS&color=0e75b6&style=flat-square" />
+<img
+  src="https://komarev.com/ghpvc/?username=dilepBabu&label=PROFILE%20VIEWS&color=0e75b6&style=flat-square"
+  alt="Profile Views"
+/>
 
 </div>
 
@@ -39,6 +42,7 @@ and improving my development skills through real-world projects.
 
 <table align="center">
 <tr>
+
 <td align="center">
 
 ### Languages
@@ -62,9 +66,11 @@ and improving my development skills through real-world projects.
 `Spring Boot` `Node.js` `Express` `Django`
 
 </td>
+
 </tr>
 
 <tr>
+
 <td align="center">
 
 ### Data
@@ -88,6 +94,7 @@ and improving my development skills through real-world projects.
 `Git` `GitHub` `Power BI` `VS Code`
 
 </td>
+
 </tr>
 </table>
 
@@ -170,13 +177,15 @@ https://github.com/dilepBabu/Job_Application_Tracker
 <div align="center">
 
 <img
-  src="https://github-readme-stats.vercel.app/api?username=dilepBabu&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true"
+  src="https://github-readme-stats.vercel.app/api?username=dilepBabu&show_icons=true&hide_border=true&include_all_commits=true&count_private=false"
   width="48%"
+  alt="Dilep Babu GitHub Stats"
 />
 
 <img
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=dilepBabu&layout=compact&theme=github_dark&hide_border=true"
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=dilepBabu&layout=compact&hide_border=true&langs_count=8"
   width="48%"
+  alt="Dilep Babu Top Languages"
 />
 
 </div>
@@ -186,8 +195,21 @@ https://github.com/dilepBabu/Job_Application_Tracker
 <div align="center">
 
 <img
-  src="https://streak-stats.demolab.com/?user=dilepBabu&theme=github-dark-blue&hide_border=true"
+  src="https://github-readme-streak-stats.herokuapp.com/?user=dilepBabu&hide_border=true"
   width="70%"
+  alt="Dilep Babu GitHub Streak"
+/>
+
+</div>
+
+<br>
+
+<div align="center">
+
+<img
+  src="https://github-readme-activity-graph.vercel.app/graph?username=dilepBabu&hide_border=true"
+  width="100%"
+  alt="Dilep Babu GitHub Activity Graph"
 />
 
 </div>
