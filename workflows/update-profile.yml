@@ -1,0 +1,410 @@
+name: Update GitHub Profile
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "0 3 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-profile:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate profile cards
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: dilepBabu
+        run: |
+          python3 <<'PY'
+          import json
+          import os
+          import urllib.request
+          from collections import Counter
+          from pathlib import Path
+
+          USERNAME = os.environ["GITHUB_USERNAME"]
+          TOKEN = os.environ["GH_TOKEN"]
+
+          API = "https://api.github.com"
+
+          headers = {
+              "Accept": "application/vnd.github+json",
+              "Authorization": f"Bearer {TOKEN}",
+              "X-GitHub-Api-Version": "2026-03-10",
+              "User-Agent": "dilepBabu-profile"
+          }
+
+          def get_json(url):
+              request = urllib.request.Request(url, headers=headers)
+
+              with urllib.request.urlopen(request) as response:
+                  return json.loads(response.read().decode())
+
+          # ---------------------------------------------------------
+          # USER
+          # ---------------------------------------------------------
+
+          user = get_json(f"{API}/users/{USERNAME}")
+
+          public_repos = user.get("public_repos", 0)
+          followers = user.get("followers", 0)
+          following = user.get("following", 0)
+
+          # ---------------------------------------------------------
+          # REPOSITORIES
+          # ---------------------------------------------------------
+
+          repos = []
+
+          page = 1
+
+          while True:
+              data = get_json(
+                  f"{API}/users/{USERNAME}/repos"
+                  f"?per_page=100&page={page}&type=owner"
+              )
+
+              if not data:
+                  break
+
+              repos.extend(data)
+
+              if len(data) < 100:
+                  break
+
+              page += 1
+
+          repos = [
+              repo for repo in repos
+              if not repo.get("fork", False)
+              and not repo.get("archived", False)
+          ]
+
+          stars = sum(repo.get("stargazers_count", 0) for repo in repos)
+          forks = sum(repo.get("forks_count", 0) for repo in repos)
+
+          # ---------------------------------------------------------
+          # LANGUAGES
+          # ---------------------------------------------------------
+
+          languages = Counter()
+
+          for repo in repos:
+              try:
+                  data = get_json(
+                      f"{API}/repos/{USERNAME}/{repo['name']}/languages"
+                  )
+
+                  for language, bytes_count in data.items():
+                      languages[language] += bytes_count
+
+              except Exception as error:
+                  print(
+                      f"Could not read languages for "
+                      f"{repo['name']}: {error}"
+                  )
+
+          total_bytes = sum(languages.values())
+
+          top_languages = []
+
+          if total_bytes:
+              top_languages = [
+                  (language, value / total_bytes * 100)
+                  for language, value in languages.most_common(6)
+              ]
+
+          # ---------------------------------------------------------
+          # SVG HELPERS
+          # ---------------------------------------------------------
+
+          profile_dir = Path("profile")
+          profile_dir.mkdir(exist_ok=True)
+
+          def escape(text):
+              return (
+                  str(text)
+                  .replace("&", "&amp;")
+                  .replace("<", "&lt;")
+                  .replace(">", "&gt;")
+                  .replace('"', "&quot;")
+                  .replace("'", "&apos;")
+              )
+
+          def write_svg(path, content, width=900, height=320):
+              svg = f'''<svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="{width}"
+              height="{height}"
+              viewBox="0 0 {width} {height}">
+              <rect width="100%" height="100%" rx="18"
+                    fill="#0d1117"
+                    stroke="#30363d"/>
+
+              {content}
+
+              </svg>'''
+
+              Path(path).write_text(svg, encoding="utf-8")
+
+          # ---------------------------------------------------------
+          # STATS SVG
+          # ---------------------------------------------------------
+
+          stats_content = f'''
+          <text
+            x="45"
+            y="55"
+            fill="#f0f6fc"
+            font-size="26"
+            font-family="Arial, Helvetica, sans-serif"
+            font-weight="700">
+            GitHub Statistics
+          </text>
+
+          <line
+            x1="45"
+            y1="78"
+            x2="855"
+            y2="78"
+            stroke="#30363d"/>
+
+          <text
+            x="55"
+            y="130"
+            fill="#8b949e"
+            font-size="16"
+            font-family="Arial, Helvetica, sans-serif">
+            Public Repositories
+          </text>
+
+          <text
+            x="55"
+            y="165"
+            fill="#58a6ff"
+            font-size="28"
+            font-family="Arial, Helvetica, sans-serif"
+            font-weight="700">
+            {public_repos}
+          </text>
+
+          <text
+            x="325"
+            y="130"
+            fill="#8b949e"
+            font-size="16"
+            font-family="Arial, Helvetica, sans-serif">
+            Stars Earned
+          </text>
+
+          <text
+            x="325"
+            y="165"
+            fill="#58a6ff"
+            font-size="28"
+            font-family="Arial, Helvetica, sans-serif"
+            font-weight="700">
+            {stars}
+          </text>
+
+          <text
+            x="595"
+            y="130"
+            fill="#8b949e"
+            font-size="16"
+            font-family="Arial, Helvetica, sans-serif">
+            Followers
+          </text>
+
+          <text
+            x="595"
+            y="165"
+            fill="#58a6ff"
+            font-size="28"
+            font-family="Arial, Helvetica, sans-serif"
+            font-weight="700">
+            {followers}
+          </text>
+
+          <text
+            x="55"
+            y="235"
+            fill="#8b949e"
+            font-size="16"
+            font-family="Arial, Helvetica, sans-serif">
+            Following
+          </text>
+
+          <text
+            x="55"
+            y="270"
+            fill="#58a6ff"
+            font-size="28"
+            font-family="Arial, Helvetica, sans-serif"
+            font-weight="700">
+            {following}
+          </text>
+
+          <text
+            x="325"
+            y="235"
+            fill="#8b949e"
+            font-size="16"
+            font-family="Arial, Helvetica, sans-serif">
+            Forks
+          </text>
+
+          <text
+            x="325"
+            y="270"
+            fill="#58a6ff"
+            font-size="28"
+            font-family="Arial, Helvetica, sans-serif"
+            font-weight="700">
+            {forks}
+          </text>
+          '''
+
+          write_svg(
+              profile_dir / "stats.svg",
+              stats_content,
+              900,
+              320
+          )
+
+          # ---------------------------------------------------------
+          # TOP LANGUAGES SVG
+          # ---------------------------------------------------------
+
+          language_rows = ""
+
+          y = 105
+
+          for language, percentage in top_languages:
+              language_rows += f'''
+              <text
+                x="55"
+                y="{y}"
+                fill="#f0f6fc"
+                font-size="17"
+                font-family="Arial, Helvetica, sans-serif">
+                {escape(language)}
+              </text>
+
+              <rect
+                x="55"
+                y="{y + 12}"
+                width="650"
+                height="8"
+                rx="4"
+                fill="#21262d"/>
+
+              <rect
+                x="55"
+                y="{y + 12}"
+                width="{650 * percentage / 100:.2f}"
+                height="8"
+                rx="4"
+                fill="#58a6ff"/>
+
+              <text
+                x="735"
+                y="{y}"
+                fill="#8b949e"
+                font-size="15"
+                font-family="Arial, Helvetica, sans-serif">
+                {percentage:.1f}%
+              </text>
+              '''
+
+              y += 42
+
+          if not language_rows:
+              language_rows = '''
+              <text
+                x="55"
+                y="120"
+                fill="#8b949e"
+                font-size="17"
+                font-family="Arial, Helvetica, sans-serif">
+                No language data available yet.
+              </text>
+              '''
+
+          languages_content = f'''
+          <text
+            x="45"
+            y="55"
+            fill="#f0f6fc"
+            font-size="26"
+            font-family="Arial, Helvetica, sans-serif"
+            font-weight="700">
+            Top Languages
+          </text>
+
+          <line
+            x1="45"
+            y1="78"
+            x2="855"
+            y2="78"
+            stroke="#30363d"/>
+
+          {language_rows}
+          '''
+
+          write_svg(
+              profile_dir / "top-langs.svg",
+              languages_content,
+              900,
+              350
+          )
+
+          print("")
+          print("======================================")
+          print("Profile statistics generated successfully")
+          print("======================================")
+          print(f"Repositories : {public_repos}")
+          print(f"Stars        : {stars}")
+          print(f"Followers    : {followers}")
+          print(f"Following    : {following}")
+          print(f"Forks        : {forks}")
+          print("")
+          print("Languages:")
+
+          for language, percentage in top_languages:
+              print(f"  {language}: {percentage:.1f}%")
+
+          print("")
+          print("Generated files:")
+          print("  profile/stats.svg")
+          print("  profile/top-langs.svg")
+          PY
+
+      - name: Verify generated files
+        run: |
+          test -f profile/stats.svg
+          test -f profile/top-langs.svg
+
+          echo "Generated files:"
+          ls -lh profile/
+
+      - name: Commit generated cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add profile/stats.svg profile/top-langs.svg
+
+          if git diff --cached --quiet; then
+            echo "No changes detected."
+          else
+            git commit -m "chore: update GitHub profile statistics"
+            git push
+          fi
