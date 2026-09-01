@@ -1,113 +1,96 @@
 <div align="center">
 
-# DILEP BABU
+# 👋 Hi, I'm Dilep Babu
 
 ### B.Tech — Information Technology
 
-**Building software • Exploring technology • Solving problems**
+<p>
+  <a href="https://github.com/dilepBabu">
+    <img src="https://img.shields.io/badge/GitHub-18181B?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+  <a href="https://www.linkedin.com/in/dilep-babu-r-99a463283/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="https://leetcode.com/u/Dilep_Babu/">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode">
+  </a>
+  <a href="https://drive.google.com/file/d/1Aw6lCGpxdbdqakM7v9xISPU3vkdsBR5u/view?usp=drivesdk">
+    <img src="https://img.shields.io/badge/Resume-111827?style=for-the-badge&logo=googledrive&logoColor=white" alt="Resume">
+  </a>
+</p>
 
 <br>
 
-<a href="https://github.com/dilepBabu">
-  <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-</a>
-&nbsp;
-<a href="https://www.linkedin.com/in/dilep-babu-r-99a463283/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-</a>
-&nbsp;
-<a href="https://leetcode.com/u/Dilep_Babu/">
-  <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode">
-</a>
-&nbsp;
-<a href="https://drive.google.com/file/d/1Aw6lCGpxdbdqakM7v9xISPU3vkdsBR5u/view?usp=drivesdk">
-  <img src="https://img.shields.io/badge/Resume-View-111827?style=for-the-badge&logo=googledrive&logoColor=white" alt="Resume">
-</a>
-
-<br><br>
-
-<img src="https://komarev.com/ghpvc/?username=dilepbabu&style=flat-square&color=6366f1&label=PROFILE+VIEWS" alt="Profile Views">
+<img
+src="https://komarev.com/ghpvc/?username=dilepbabu&style=flat-square&color=6366F1&label=PROFILE+VIEWS"
+alt="Profile Views"
+/>
 
 </div>
 
 ---
 
-## About
+## 🚀 About Me
 
-I'm **Dilep Babu**, a B.Tech Information Technology student interested in building practical software and learning modern technologies.
+I'm **Dilep Babu**, a B.Tech Information Technology student interested in building practical software and exploring modern technologies.
 
-I enjoy turning ideas into working products, experimenting with different technologies, and continuously improving my development skills.
+I enjoy learning by building projects, solving problems, and continuously improving my development skills.
 
 ---
 
-## Tech Stack
+## 🧰 Technologies
 
 <div align="center">
 
-### Languages
-
-<img src="https://skillicons.dev/icons?i=python,java,js,html,css" alt="Languages">
-
-### Frameworks & Development
-
-<img src="https://skillicons.dev/icons?i=react,django,nodejs,tailwind" alt="Frameworks">
-
-### Tools & Platforms
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode,vercel" alt="Tools">
+<img src="https://skillicons.dev/icons?i=python,java,js,html,css,react,django,nodejs,tailwind,git,github,vscode" alt="Technology Stack">
 
 </div>
 
 ---
 
-## GitHub Activity
+## 📊 GitHub Statistics
 
 <div align="center">
 
-<a href="https://github.com/dilepBabu">
+<img
+src="./profile/stats.svg"
+width="49%"
+alt="GitHub Statistics"
+/>
 
-<img src="./profile/stats.svg" width="49%" alt="GitHub Statistics">
-
-</a>
-
-<a href="https://github.com/dilepBabu">
-
-<img src="./profile/top-langs.svg" width="49%" alt="Top Languages">
-
-</a>
-
-</div>
-
-<br>
-
-<div align="center">
-
-<img src="./profile/streak.svg" width="70%" alt="GitHub Contribution Streak">
+<img
+src="./profile/top-langs.svg"
+width="49%"
+alt="Top Languages"
+/>
 
 </div>
 
 ---
 
-## Contribution Graph
+## 🐍 Contribution Activity
 
 <div align="center">
 
-<img src="./profile/contribution-snake.svg" alt="Contribution Snake">
+<img
+src="https://raw.githubusercontent.com/dilepBabu/dilepBabu/output/github-contribution-grid-snake.svg"
+alt="GitHub Contribution Snake"
+/>
 
 </div>
 
 ---
 
-## Let's Connect
+## 🌐 Connect
 
 <div align="center">
 
 <a href="https://github.com/dilepBabu">
-  <img src="https://img.shields.io/badge/GitHub-Explore%20My%20Projects-111827?style=for-the-badge&logo=github&logoColor=white">
+  <img src="https://img.shields.io/badge/GitHub-View%20Projects-18181B?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
 </a>
 
 <a href="https://www.linkedin.com/in/dilep-babu-r-99a463283/">
-  <img src="https://img.shields.io/badge/LinkedIn-Let's%20Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
 </a>
 
 </div>
@@ -116,9 +99,6 @@ I enjoy turning ideas into working products, experimenting with different techno
 
 <div align="center">
 
-### Thanks for visiting my profile 👋
-
-<sub>Always learning. Always building.</sub>
+**Thanks for visiting! 👋**
 
 </div>
-
